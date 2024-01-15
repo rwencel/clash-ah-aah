@@ -1,8 +1,10 @@
+import clash_install # must be first to install dependencies
 from clash_api import ClashAPI
 from clash_encryption import decrypt
 import configparser
 from getpass import getpass
 import os
+import pretty_errors
 import webbrowser
 
 def main():

@@ -1,5 +1,5 @@
-import requests
 import json
+import requests
 from types import SimpleNamespace
 
 class ClashAPI:
